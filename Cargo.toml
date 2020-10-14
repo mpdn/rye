@@ -1,0 +1,11 @@
+[package]
+authors = ["Mike Pedersen <mike@mikepedersen.dk>"]
+edition = "2018"
+name = "rye"
+version = "0.1.0"
+
+[build-dependencies]
+cc = "1.0.61"
+
+[dev-dependencies]
+static_assertions = "1.1.0"
