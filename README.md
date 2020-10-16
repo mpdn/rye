@@ -3,7 +3,7 @@
 Rye is a minimal, x86-64-only experiment into adding fibers to Rust.
 
 Rye exposes an API that allows spawning, scheduling, and deallocating fibers. This API, while
-largely safe, rests on a lot of unsafe assumptions not necessarily guarenteed by the rust
+largely safe, rests on a lot of unsafe assumptions not necessarily guaranteed by the rust
 compiler. This is just an experiment and you should not use it for anything critical.
 
 Rye has no central place where fibers are registered. Instead, when a fiber is yielded to it
